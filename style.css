@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+/* Header Navbar */
+#navbar{
+    background-color: rgb(61, 61, 61);
+    color: white;
+    display: flex;
+    justify-content: center;    
+}
+
+#navbar .container{  
+    text-align: center;  
+    padding: 20px;  
+    box-sizing: border-box;  
+}
+
+#navbar .container h2{  
+    font-size: 32px;
+    padding: 10px;
+}
+
+#navbar .container ul{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+#navbar .container ul li{
+    list-style: none;
+}
+
+#navbar .container ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#navbar .container ul li a:hover{
+    background-color: white;
+    color: rgb(61, 61, 61);
+}
+
+/* Header Carousel */
+#carousel{
+    background-color: rgb(121, 121, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;    
+}
+
+#carousel .container{
+    text-align: center;
+    padding: 20px;
+    color: white;    
+}   
+
+#carousel .container h3{
+    font-size: 24px;
+    padding: 10px 0 5px 0;
+}
+
+#carousel .container p{
+    padding: 5px 0 10px 0;
+}
+
+/* Section About */
+#about{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 20px 0;
+}
+
+#about .container{
+    text-align: center;
+}
+
+#about .container h3{
+    margin: 0 0 10px 0;
+}
+
+#about .container .big-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;    
+}
+
+#about .container .big-box .box{
+    width: 370px;
+    margin: 0 10px;   
+    border: 1px solid rgb(189, 189, 189);
+    background-color: rgb(221, 221, 221);
+    padding: 15px 15px 20px 15px;
+    box-sizing: border-box;    
+}
+
+#about .container .big-box .box h5{
+    padding: 10px;    
+    font-size: 18px;    
+}
+
+/* Section Academics */
+#academics{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+
+#academics .container{
+    text-align: center;
+}
+
+#academics .container h3{
+    margin: 0 0 10px 0;
+}
+
+#academics .container .big-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;    
+}
+
+#academics .container .big-box .box{
+    width: 370px;
+    margin: 0 10px;  
+    border: 1px solid rgb(189, 189, 189);
+    background-color: rgb(221, 221, 221);
+    padding: 15px 15px 20px 15px;
+    box-sizing: border-box;    
+}
+
+#academics .container .big-box .box h5{
+    padding: 10px;    
+    font-size: 18px;    
+}
+
+/* Section Admissions */
+#admissions{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+
+#admissions .container{
+    text-align: center;
+}
+
+#admissions .container h3{
+    margin: 0 0 10px 0;
+}
+
+#admissions .container .big-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;    
+}
+
+#admissions .container .big-box .box{
+    width: 370px;
+    margin: 0 10px;  
+    border: 1px solid rgb(189, 189, 189);
+    background-color: rgb(221, 221, 221);
+    padding: 15px 15px 20px 15px;
+    box-sizing: border-box;    
+}
+
+#admissions .container .big-box .box h5{
+    padding: 10px;    
+    font-size: 18px;    
+}
+
+/* Section News */
+#news{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+
+#news .container{
+    text-align: center;
+}
+
+#news .container h3{
+    margin: 0 0 10px 0;
+}
+
+#news .container .big-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;    
+}
+
+#news .container .big-box .box{
+    width: 370px;
+    margin: 0 10px;  
+    border: 1px solid rgb(189, 189, 189);
+    background-color: rgb(221, 221, 221);
+    padding: 15px 15px 20px 15px;
+    box-sizing: border-box;    
+}
+
+#news .container .big-box .box h5{
+    padding: 10px;    
+    font-size: 18px;    
+}
+
+/* Section Contact */
+#contact{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;   
+    align-items: center; 
+}
+
+#contact .container{    
+    text-align: center;
+    width: 100%;
+}
+
+#contact .container h3{
+    margin: 0 0 10px 0;
+}
+
+#contact .container .big-box{
+    margin: 20px;  
+}
+
+#contact .container .big-box .input{
+    width: 1150px;
+    height: 40px;
+    padding: 20px;
+    box-sizing: border-box; 
+    margin: 5px;
+    color: rgb(68, 68, 68);   
+}
+
+#contact .container .big-box .button{
+    background-color: rgb(121, 121, 121);    
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid white;
+    line-height: 0px;    
+}
+
+#contact .container .big-box .button:hover{
+    background-color: rgb(219, 219, 219); 
+    color: rgb(43, 42, 42); 
+    border: 1px solid rgb(49, 49, 49);
+}
+
+/* Footer */
+#footer{
+    background-color: rgb(61, 61, 61);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer .container{
+    padding: 20px;
+}
